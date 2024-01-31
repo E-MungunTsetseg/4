@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(226, 226, 226);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+}
+.container{
+    background-color: white;
+    height: 600px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 8px;
+}
+p{
+    font-size: 1.3rem;
+    font-family: 'poppins', sans-serif;
+    margin: 1rem 0rem;
+    color: rgb(78, 78, 78);
+}
+img{
+    padding: 0rem 1rem 0rem 0rem;
+}
+textarea{
+    font-size: 1.3rem;
+    padding: 2rem 1rem;
+    background-color: #F2F3F4;
+    border-radius:8px ;
+    border: none;
+    font-family: 'poppins',sans-serif;
+    color:  rgb(78, 78, 78);
+}
