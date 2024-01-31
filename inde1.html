@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Your Order</h1>
+        <div class="name-email">
+            <div class="name">
+                <label for="order-name">Name</label><br>
+                <input type="text" name="order-name" id="order-name" placeholder="Your full name" autofocus>
+            </div>
+            <div class="email">
+                <label for="order-email">Email address</label><br>
+                <input type="email" name="order-email" id="order-email" value="chuck@roundhouse.com" disabled>
+            </div>
+        </div>
+        <div class="address">
+            <label for="order-address">Addredss</label><br>
+            <input type="text" name="order-address" id="order-address" value="9 Augusta Street">
+            <div class="suite">
+                <input type="text" name="suite" id="suite" value="Suite122">
+            </div>
+        </div>
+        <div class="country">
+            <div class="City">
+                <label for="order-city">City</label><br>
+                <input type="text" name="order-city" id="order-city" value="New Jersey">
+            </div>
+            <div class="state">
+                <label for="order-state">State</label><br>
+                <select name="state" id="state">
+                    <option value="paris">Paris</option>
+                    <option value="london">London</option>
+                    <option value="Korea">Korea</option>
+                    <option value="japan">Japan</option>
+                </select>
+            </div>
+            <div class="ZIP">
+                <label for="order-zip">ZIP</label><br>
+                <input type="number" name="order-zip" id="order-zip" value="726221">
+            </div>
+        </div>
+        <div class="color">
+            <p>What color samples should we send you?</p>
+            <label for="white">
+                <input type="checkbox" name="color" id="white" value="white" disabled>White
+            </label>
+            <label for="magenta">
+                <input type="checkbox" name="color" id="magenta" value="magenta">Magenta
+            </label>
+            <label for="coral">
+                <input type="checkbox" name="color" id="coral" value="coral">Coral
+            </label>
+            <label for="hurgundy">
+                <input type="checkbox" name="color" id="hurgundy" value="hurgundy">Hurgundy
+            </label>
+            <label for="charcoal">
+                <input type="checkbox" name="color" id="charcoal" value="charcoal">Charcoal
+            </label>
+        </div>
+        <div class="team">
+            <p>How large is your team?</p>
+            <label for="small">
+                <input type="radio" name="small" id="1-5 people">1-5 people
+            </label>
+            <label for="medium">
+                <input type="radio" name="medium" id="6-10 people">6-10 peole
+            </label>
+            <label for="large">
+                <input type="radio" name="large" id="10+ people">10+ people
+            </label>
+        </div>
+        <div class="comment">
+            <p>Comments</p>
+            <textarea name="story" id="story" cols="60" rows="6">Please also send me one of your catalogs so i can show your products to other people in my industry</textarea>
+        </div>
+        <div class="chbx">
+            <p><input type="checkbox">Sign up for special offers</p>
+            <button>Place Order</button>
+        </div>
+    </div>
+</body>
+</html>
